@@ -1,8 +1,8 @@
  //declaring global variables
     var canvas;
     var canvasContext;
-    var ballX = 50;
-    var ballY = 50;
+    var ballX = 300;
+    var ballY =300;
     var ballSpeedX = 10;
     var ballSpeedY = 4;
 
@@ -122,7 +122,7 @@ function handleMouseClick(event){
             }
             //
             else{
-             player2Score ++; //MUST be BEFORE ballreset()
+             player1Score ++; //MUST be BEFORE ballreset()
             ballReset();
 
             
@@ -144,7 +144,7 @@ function handleMouseClick(event){
 
             }
             else{
-            player1Score ++;//MUST be BEFORE ballreset()
+            player2Score ++;//MUST be BEFORE ballreset()
             ballReset();
 
 
